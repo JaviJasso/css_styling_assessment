@@ -1,0 +1,63 @@
+header{
+  background: #ff8523;
+  margin: 1px;
+  padding: 20px 5px;
+}
+
+.main_navigation a{
+  color: white;
+  border: 1px solid white;
+  padding: 2px 20px;
+  margin: 10px 15px;
+  font-weight: 600;
+}
+
+h2{
+  font-weight: bold;
+  color: #1fabe5;
+}
+
+div a{
+  color: #1fabe5;
+}
+
+h3{
+  font-weight: bold;
+  color: #1fabe5;
+}
+
+ul{
+  font-weight: bold;
+}
+
+thead{
+  color: white;
+  background: #1fabe5;
+  font-weight: 400;
+}
+
+thead tr{
+  border: 10px solid darkblue;
+  padding: 2px 20px;
+  margin: 10px 15px;
+}
+
+/*
+
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+font{
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
