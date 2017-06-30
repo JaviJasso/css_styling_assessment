@@ -1,7 +1,17 @@
 header{
   background: #ff8523;
-  margin: 1px;
-  padding: 20px 5px;
+  padding: 15px 15px;
+  margin-bottom: 5px;
+  padding-bottom: 40px;
+}
+
+font{
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.main_navigation{
+  margin-top: 20px;
 }
 
 .main_navigation a{
@@ -10,6 +20,19 @@ header{
   padding: 2px 20px;
   margin: 10px 15px;
   font-weight: 600;
+  text-decoration: none;
+  border-radius: 15%;
+}
+
+body > div{
+  border-radius: 5px;
+  border: 1px solid #ffd24a;
+  background-color: white;
+}
+
+body{
+  padding: 10px;
+  background-image: url(/Users/javi/ironYard/css_styling_assessment/starter_files/img/bg.jpg);
 }
 
 h2{
@@ -30,18 +53,86 @@ ul{
   font-weight: bold;
 }
 
+section table{
+  border-collapse: collapse;
+  padding-bottom: : 20px;
+  width: 100%;
+
+}
+
 thead{
   color: white;
   background: #1fabe5;
   font-weight: 400;
+  padding-left: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: small;
 }
 
-thead tr{
-  border: 10px solid darkblue;
-  padding: 2px 20px;
-  margin: 10px 15px;
+thead td{
+  border: 1px solid #046c97;
+  padding: 20px;
+  margin: 1px
+  text-align: center;
+
 }
 
+tbody{
+  color: black;
+  background: white;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+tbody td{
+  border: 1px solid #046c97;
+  padding: 2px;
+  margin: 1px;
+}
+
+form{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    background: #eee;
+  }
+
+
+
+div .name{
+  background: #ff8523;
+  color: white;
+  padding: 20px 10px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  }
+
+  div .city_container{
+    padding: 10px 0;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: small;
+  }
+
+label[for="bio"]{
+  padding: 5px;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: 600
+}
+
+#submit_button{
+   background: #1fabe5;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white;
+    font-family: sans-serif;
+}
 /*
 
 font info:
@@ -57,7 +148,3 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
-font{
-  font-family: Helvetica, Arial, sans-serif;
-  line-height: 1.6;
-}
